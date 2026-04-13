@@ -10,11 +10,21 @@ function Header() {
           <Link to="/">Shelly Li Portfolio</Link>
         </div>
         <ul className="nav-links">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/work">Work</Link></li>
-          <li><Link to="/skills">Skills</Link></li>
-          <li><Link to="/resources">Resources</Link></li>
-          <li><Link to="/developer-setup">Dev Setup</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/work">Work</Link>
+          </li>
+          <li>
+            <Link to="/skills">Skills</Link>
+          </li>
+          <li>
+            <Link to="/resources">Resources</Link>
+          </li>
+          <li>
+            <Link to="/developer-setup">Dev Setup</Link>
+          </li>
         </ul>
       </nav>
     </header>
